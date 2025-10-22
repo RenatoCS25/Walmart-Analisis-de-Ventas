@@ -1,7 +1,5 @@
 #  Walmart Sales Analysis
 
-![Dashboard Overview](images/dashboard_preview.png)
-
 Análisis exhaustivo de datos de ventas de Walmart para identificar patrones de comportamiento, evaluar el impacto de factores externos y optimizar la toma de decisiones operativas. Este proyecto simula un caso real de inteligencia comercial utilizando SQL Server y Power BI.
 
 ---
