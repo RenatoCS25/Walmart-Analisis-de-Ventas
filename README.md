@@ -153,41 +153,6 @@ Las comparaciones interanuales fueron ajustadas para considerar solo períodos e
 
 ---
 
-##  Cómo Reproducir el Análisis
-
-### Requisitos Previos
-```
-- SQL Server 2019 o superior
-- Power BI Desktop (última versión)
-- Dataset de Kaggle (link arriba)
-```
-
-### Pasos
-
-1. **Clonar el repositorio:**
-```bash
-git clone https://github.com/RenatoCS25/Walmart-Sales-Analysis.git
-cd Walmart-Sales-Analysis
-```
-
-2. **Configurar base de datos:**
-```sql
--- Importar CSVs a SQL Server
--- Ejecutar scripts en orden:
--- 1. sql/01_exploratory_analysis.sql
--- 2. sql/02_business_questions.sql
-```
-
-3. **Abrir dashboard:**
-```
-- Abrir: powerbi/walmart_dashboard.pbix
-- Actualizar credenciales de conexión SQL (si es necesario)
-- Refrescar datos
-- Explorar las 5 páginas interactivas
-```
-
----
-
 ##  Estructura del Proyecto
 ```
 Walmart-Sales-Analysis/
