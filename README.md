@@ -43,7 +43,7 @@ Verificación de integridad referencial y tipos de datos
 Identificación de períodos disponibles: Feb 2010 - Oct 2012
 
 #### Limpieza y Transformación:
-sql-- Creación de columnas derivadas para análisis temporal
+- Creación de columnas derivadas para análisis temporal
 - Year, Month, Month_Name, Quarter, Week_Number
 - Validación de valores nulos (< 0.1% en campos críticos)
 - Estandarización de formatos de fecha
