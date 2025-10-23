@@ -80,38 +80,6 @@ Este análisis permite a Walmart:
 
 ---
 
-##  Insights del Análisis
-
-###  Variabilidad entre Tiendas
-- **Tienda #20 lidera** con $30.3M en ventas totales, seguida por tiendas #4 y #14
-- Existe alta variación en desempeño: las bottom 10 tiendas representan solo **8% de ventas**
-- Mayor tamaño de tienda **NO garantiza** mejores ventas por pie cuadrado, sugiriendo que la eficiencia operativa es más relevante que el tamaño
-
-###  Estacionalidad Marcada
-- **Patrón estacional claro:** Q4 domina las ventas con picos en noviembre-diciembre
-- Las **semanas 47-52** (Thanksgiving y Navidad) muestran los mayores volúmenes del año
-- Enero-febrero son los meses más débiles, con ventas **18% bajo el promedio anual**
-- La estacionalidad es consistente a lo largo de los 3 años analizados
-
-###  Impacto de Festivos
-- Las semanas con festivos generan ventas **22-28% superiores** a semanas regulares
-- **Tiendas tipo A se benefician más** (+35%) del efecto festivo vs tipo C (+18%)
-- El "efecto halo" de festivos se extiende **1 semana después** del evento principal
-- **Thanksgiving** muestra el mayor impacto individual en ventas
-
-###  Factores Externos Limitados
-- **Temperatura:** Correlación débil positiva (0.00) - rango óptimo 60-80°F
-- **Precio del combustible:** Impacto mínimo en comportamiento de compra (-0.08 correlación)
-- **Variables económicas (CPI, desempleo):** Correlación muy baja (<0.05)
-- **Conclusión:** Factores internos (marketing, promociones, surtido) tienen **mayor impacto** que variables externas
-
-###  Oportunidades de Mejora
-- **12 tiendas** mantienen ventas consistentemente bajas (<$25M), requiriendo análisis de causas raíz
-- Existe oportunidad de replicar estrategias de tiendas exitosas en ubicaciones de bajo desempeño
-- El análisis revela necesidad de estrategias diferenciadas por tipo de tienda y región
-
----
-
 ## 📈 Recomendaciones Ejecutivas
 
 **Programa Top Store Replication:** replicar las mejores prácticas de las tiendas top (#20, #4, #14) en las tiendas de menor desempeño. Esto incluye capacitación del personal, optimización de merchandising y estrategias de clientela. El objetivo es incrementar las ventas promedio de las tiendas bottom 20 de $18M a $21M anuales.
