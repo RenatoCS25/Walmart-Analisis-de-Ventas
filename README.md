@@ -33,6 +33,59 @@ Este análisis permite a Walmart:
 
 ---
 
+## Metodologia
+
+### 1. Preparación de Datos (SQL Server)
+#### Importación y Validación:
+
+Carga de 3 tablas relacionales: sales (421K registros), stores (45 tiendas), features (factores externos)
+Verificación de integridad referencial y tipos de datos
+Identificación de períodos disponibles: Feb 2010 - Oct 2012
+
+#### Limpieza y Transformación:
+sql-- Creación de columnas derivadas para análisis temporal
+- Year, Month, Month_Name, Quarter, Week_Number
+- Validación de valores nulos (< 0.1% en campos críticos)
+- Estandarización de formatos de fecha
+#### Análisis Exploratorio:
+
+### 2. Modelado en Power BI
+#### Arquitectura de Datos:
+
+Modelo relacional tipo estrella
+Tabla de hechos: sales (centro del modelo)
+Tablas dimensionales: stores, features
+Relaciones 1:* configuradas con filtrado bidireccional
+
+#### Medidas DAX Desarrolladas:
+15+ medidas calculadas incluyendo:
+- Total Sales, Avg Weekly Sales
+- YoY Growth % (ajustado por períodos comparables)
+- Holiday Impact %, Sales per SqFt
+- Ranking dinámico de tiendas
+- Índices de volatilidad y estacionalidad
+
+50+ queries SQL para responder preguntas de negocio
+Agregaciones por tienda, departamento, período temporal
+Cálculos de correlación entre variables externas y ventas
+
+### 3. Visualización Interactiva
+#### Diseño del Dashboard:
+
+5 páginas especializadas con 30+ visualizaciones
+Slicers sincronizados: Año, Tienda, Tipo
+Paleta de colores corporativa Walmart (azul #0071CE, amarillo #FFC220)
+Navegación intuitiva entre análisis
+
+#### Principios de Diseño:
+
+Simplicidad: Un insight principal por visual
+Interactividad: Todos los gráficos responden a filtros
+Contexto: Text boxes con interpretación de datos
+Acción: Recomendaciones basadas en hallazgos
+
+---
+
 ##  Principales Hallazgos e Insights Estratégicos
 
 ### 1. Concentración Crítica de Ingresos
