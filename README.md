@@ -68,18 +68,6 @@ Este análisis permite a Walmart:
 
 ---
 
-
-##  Resultados Clave
-
-- **$6.7 mil millones** en ventas totales analizadas durante 33 meses
-- Las **10 tiendas top** concentran **42% de las ventas totales**, indicando alta concentración de ingresos
-- Los días festivos generan un incremento de **22-28%** en ventas vs semanas regulares
-- **Julio** es el mes de mayor venta (no diciembre como se esperaría), con picos relacionados a back-to-school
-- Q4 representa **35% de las ventas anuales**, con diciembre superando el promedio mensual en **+45%**
-- Tiendas tipo A generan **60% del volumen total**, con mejor desempeño per square foot
-
----
-
 ## 📈 Recomendaciones Ejecutivas
 
 **Programa Top Store Replication:** replicar las mejores prácticas de las tiendas top (#20, #4, #14) en las tiendas de menor desempeño. Esto incluye capacitación del personal, optimización de merchandising y estrategias de clientela. El objetivo es incrementar las ventas promedio de las tiendas bottom 20 de $18M a $21M anuales.
