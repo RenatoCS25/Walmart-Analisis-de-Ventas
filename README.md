@@ -33,6 +33,42 @@ Este análisis permite a Walmart:
 
 ---
 
+##  Principales Hallazgos e Insights Estratégicos
+
+### 1. Concentración Crítica de Ingresos
+- El **39% de las ventas totales** proviene de solo 10 tiendas.  
+- 12 tiendas registran bajo desempeño (<$25M).  
+- **Implicación:** alto riesgo de dependencia y potencial de mejora en tiendas rezagadas.  
+- **Recomendación:** replicar prácticas de tiendas top y crear alertas tempranas de desempeño.
+
+### 2. Estacionalidad Extrema y Predecible
+- Q4 concentra el **35% de las ventas anuales**, siendo diciembre el mes con mayor pico (+64.8% sobre promedio).  
+- Enero y febrero presentan los niveles más bajos.  
+- **Implicación:** capacidad subutilizada gran parte del año.  
+- **Recomendación:** planificar inventario trimestral, aumentar stock antes de Q4, realizar promociones post-festivas y desarrollar campañas para suavizar la demanda en Q2 y Q3.
+
+### 3. Impacto Significativo de Días Festivos
+- Semanas con festivos generan **+7.13% en ventas**, concentrando utilidades significativas.  
+- Tiendas tipo A capturan mejor estas oportunidades; las tipo C desaprovechan el potencial.  
+- **Recomendación:** implementar estrategias integrales pre, durante y post festivo, incluyendo marketing digital segmentado, horarios extendidos, promociones flash y personal adicional para maximizar el tráfico y las ventas.
+
+### 4. Factores Externos con Impacto Mínimo
+- Correlación prácticamente nula con temperatura, gasolina, desempleo o CPI.  
+- **Conclusión:** las ventas dependen de factores internos y no del entorno económico.  
+- **Recomendación:** centrar la gestión en variables controlables como experiencia en tienda, promociones, fidelización y ejecución operativa, dejando de atribuir bajo desempeño a la economía externa.
+
+### 5. Eficiencia por Pie Cuadrado
+- Tiendas **tipo C** son las más eficientes ($1,667 ventas/pie² vs $1,106 en tipo A).  
+- **Conclusión:** mayor tamaño no implica mayor rentabilidad.  
+- **Recomendación:** auditar el uso de espacio en tiendas grandes, eliminar áreas de bajo giro, transformar espacios muertos en experiencias de cliente y replicar el formato “small box” en ubicaciones urbanas densas para maximizar ventas por pie cuadrado.
+
+### 6. Volatilidad y Predictibilidad
+- Mayor volumen → mayor volatilidad → menor predictibilidad.  
+- **Recomendación:** segmentar operaciones según volatilidad: las tiendas de alta volatilidad requieren más stock, reabastecimiento frecuente y autonomía gerencial, mientras que las de baja volatilidad pueden operar con inventario lean y procesos automatizados.
+
+---
+
+
 ##  Resultados Clave
 
 - **$6.7 mil millones** en ventas totales analizadas durante 33 meses
