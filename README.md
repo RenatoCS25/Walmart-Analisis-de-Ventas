@@ -6,7 +6,7 @@ Análisis exhaustivo de datos de ventas de Walmart para identificar patrones de 
 
 ##  Descripción
 
-Walmart, como líder global en retail, requiere anticipar la demanda para optimizar inventario, asignación de personal y estrategias promocionales. Este proyecto analiza **421,570 registros de ventas semanales** de 45 tiendas durante el período febrero 2010 - octubre 2012, evaluando el comportamiento de ventas por tienda, tipo de establecimiento y el impacto de factores externos como días festivos, temperatura y variables económicas.
+Walmart, como líder global en retail, requiere anticipar la demanda para optimizar inventario, asignación de personal y estrategias promocionales. Este proyecto analiza 421,570 registros de ventas semanales de 45 tiendas durante el período febrero 2010 - octubre 2012, evaluando el comportamiento de ventas por tienda, tipo de establecimiento y el impacto de factores externos como días festivos, temperatura y variables económicas.
 
 ---
 
