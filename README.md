@@ -114,6 +114,53 @@ Acción: Recomendaciones basadas en hallazgos
 
 ---
 
+##  INSIGHTS ESTRATÉGICOS — Walmart Sales  
+
+### 1.  Concentración de ingresos = riesgo operativo  
+Solo el **22% de las tiendas genera el 39% de las ventas totales**, lo que revela una alta dependencia de pocas ubicaciones.  
+Si una tienda clave deja de operar una semana, el impacto supera los **$5.8M**.  
+Esta concentración representa **vulnerabilidad operativa** y **subutilización** del resto del portafolio.  
+Diversificar las fuentes de ingreso e impulsar el rendimiento de las tiendas medianas podría generar más de **$800M adicionales** en ventas.  
+
+---
+
+### 2.  Q4 define el año fiscal  
+El **cuarto trimestre concentra el 35% de las ventas anuales**, con diciembre aportando el 15%.  
+En solo seis semanas (noviembre–diciembre) se genera casi una quinta parte del total anual.  
+Esto evidencia una **fuerte dependencia estacional**: si Q4 falla, el resto del año no compensa.  
+Walmart necesita **optimizar la ejecución operativa durante Q4** y **crear eventos de venta en los primeros trimestres** para equilibrar la demanda.  
+
+---
+
+### 3.  Festivos benefician solo a tiendas tipo A  
+Durante semanas festivas, las ventas aumentan un **7%**, pero el beneficio no es uniforme:  
+las **tiendas Tipo A crecen 35%**, mientras las **Tipo C apenas 17%**.  
+Este desequilibrio genera una **pérdida estimada de $70M** por falta de aprovechamiento en formatos menores.  
+Se requiere una **estrategia diferenciada por tipo de tienda** que potencie las oportunidades de los formatos B y C.  
+
+---
+
+### 4.  Factores externos no determinan resultados  
+Las variables externas como **clima, combustible o economía** tienen una correlación menor al **5% con las ventas**.  
+Esto demuestra que el desempeño de Walmart depende principalmente de su **ejecución interna**.  
+En lugar de justificar resultados con condiciones macroeconómicas, la empresa debe **enfocar su análisis en operaciones, promociones y experiencia del cliente**, donde realmente puede influir.  
+
+---
+
+### 5.  Tiendas tipo C: el formato más eficiente  
+Las tiendas pequeñas (**Tipo C**) generan **51% más ventas por pie cuadrado** que las grandes (**Tipo A**), con una inversión inicial tres veces menor.  
+Ejemplos como la **Tienda #43**, que alcanza **$90M anuales con espacio limitado**, confirman su eficiencia.  
+Este formato representa una **oportunidad estratégica** para expandirse en zonas urbanas con alta densidad y menor costo operativo.  
+
+---
+
+### 6.  Alta volatilidad en tiendas grandes  
+Las tiendas de alto volumen presentan una **variabilidad de ventas tres veces superior al promedio**.  
+Esto aumenta el riesgo de **quiebres de stock o exceso de inventario**, generando costos innecesarios.  
+La complejidad operativa en estos establecimientos exige **sistemas de pronóstico más precisos** y **políticas de inventario flexibles**.  
+Ser grande no significa ser fácil de gestionar.  
+
+
 ## 📈 Recomendaciones Ejecutivas
 
 **Programa Top Store Replication:** replicar las mejores prácticas de las tiendas top (#20, #4, #14) en las tiendas de menor desempeño. Esto incluye capacitación del personal, optimización de merchandising y estrategias de clientela. El objetivo es incrementar las ventas promedio de las tiendas bottom 20 de $18M a $21M anuales.
