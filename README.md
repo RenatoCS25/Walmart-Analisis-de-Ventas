@@ -24,17 +24,14 @@ Walmart es una corporación multinacional de retail que opera 45 tiendas con apr
 
 ---
 
-##  Impacto en el Negocio
+## Preguntas de Negocio
 
-Este análisis permite a Walmart:
+1. ¿Cómo varían las ventas semanales a lo largo del tiempo y existe crecimiento sostenido?
+2. ¿Existe estacionalidad marcada que permita planificar operaciones anticipadamente?
+3. ¿Qué incremento en ventas generan los días festivos y qué tiendas capitalizan mejor esta oportunidad?
+4. ¿Variables externas (clima, economía) impactan significativamente las ventas o son factores internos los determinantes?
+5. ¿Qué tiendas tienen mejor/peor desempeño y cuáles son los factores explicativos?
 
--  **Optimizar inventario:** Identificar patrones estacionales para ajustar stock por tienda y período
--  **Planificar staffing:** Anticipar períodos de alta demanda para asignación de personal
--  **Diseñar campañas promocionales:** Determinar cuándo y dónde las promociones tienen mayor impacto
--  **Evaluar desempeño por tienda:** Identificar tiendas de alto y bajo rendimiento para intervenciones específicas
--  **Mejorar planificación operativa:** Tomar decisiones basadas en evidencia en lugar de intuición
-
----
 
 ## Metodologia
 
