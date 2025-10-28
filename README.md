@@ -141,14 +141,12 @@ Las variables externas como **clima, combustible o economía** tienen una correl
 Esto demuestra que el desempeño de Walmart depende principalmente de su **ejecución interna**.  
 En lugar de justificar resultados con condiciones macroeconómicas, la empresa debe **enfocar su análisis en operaciones, promociones y experiencia del cliente**, donde realmente puede influir.  
 
----
 
 ### 5.  Tiendas tipo C: el formato más eficiente  
 Las tiendas pequeñas (**Tipo C**) generan **51% más ventas por pie cuadrado** que las grandes (**Tipo A**), con una inversión inicial tres veces menor.  
 Ejemplos como la **Tienda #43**, que alcanza **$90M anuales con espacio limitado**, confirman su eficiencia.  
 Este formato representa una **oportunidad estratégica** para expandirse en zonas urbanas con alta densidad y menor costo operativo.  
 
----
 
 ### 6.  Alta volatilidad en tiendas grandes  
 Las tiendas de alto volumen presentan una **variabilidad de ventas tres veces superior al promedio**.  
