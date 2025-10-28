@@ -12,15 +12,15 @@ Walmart es una corporación multinacional de retail que opera 45 tiendas con apr
 
 ##  Objetivos del Analisis
 
-1.Identificar patrones temporales de venta
+1. Identificar patrones temporales de venta
 
-2.Evaluar desempeño por tienda
+2. Evaluar desempeño por tienda
 
-3.Cuantificar impacto de factores externos
+3. Cuantificar impacto de factores externos
 
-4.Generar recomendaciones accionables
+4. Generar recomendaciones accionables
 
-5.Establecer KPIs de monitoreo continuo
+5. Establecer KPIs de monitoreo continuo
 
 ---
 
