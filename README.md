@@ -114,7 +114,7 @@ Acción: Recomendaciones basadas en hallazgos
 
 ---
 
-##  INSIGHTS ESTRATÉGICOS — Walmart Sales  
+##  INSIGHTS 
 
 ### 1.  Concentración de ingresos = riesgo operativo  
 Solo el **22% de las tiendas genera el 39% de las ventas totales**, lo que revela una alta dependencia de pocas ubicaciones.  
@@ -122,15 +122,12 @@ Si una tienda clave deja de operar una semana, el impacto supera los **$5.8M**.
 Esta concentración representa **vulnerabilidad operativa** y **subutilización** del resto del portafolio.  
 Diversificar las fuentes de ingreso e impulsar el rendimiento de las tiendas medianas podría generar más de **$800M adicionales** en ventas.  
 
----
-
 ### 2.  Q4 define el año fiscal  
 El **cuarto trimestre concentra el 35% de las ventas anuales**, con diciembre aportando el 15%.  
 En solo seis semanas (noviembre–diciembre) se genera casi una quinta parte del total anual.  
 Esto evidencia una **fuerte dependencia estacional**: si Q4 falla, el resto del año no compensa.  
 Walmart necesita **optimizar la ejecución operativa durante Q4** y **crear eventos de venta en los primeros trimestres** para equilibrar la demanda.  
 
----
 
 ### 3.  Festivos benefician solo a tiendas tipo A  
 Durante semanas festivas, las ventas aumentan un **7%**, pero el beneficio no es uniforme:  
@@ -138,7 +135,6 @@ las **tiendas Tipo A crecen 35%**, mientras las **Tipo C apenas 17%**.
 Este desequilibrio genera una **pérdida estimada de $70M** por falta de aprovechamiento en formatos menores.  
 Se requiere una **estrategia diferenciada por tipo de tienda** que potencie las oportunidades de los formatos B y C.  
 
----
 
 ### 4.  Factores externos no determinan resultados  
 Las variables externas como **clima, combustible o economía** tienen una correlación menor al **5% con las ventas**.  
