@@ -155,17 +155,26 @@ La complejidad operativa en estos establecimientos exige **sistemas de pronósti
 Ser grande no significa ser fácil de gestionar.  
 
 
+### 5. Programa de Excelencia Operativa
+Busca estandarizar procesos, mejorar la eficiencia y asegurar consistencia en la ejecución en todas las tiendas. Incluye auditorías, capacitación continua y adopción de mejores prácticas para fortalecer la cultura de mejora continua.
+
+### 6. Estrategia de Desestacionalización Comercial
+Pretende reducir la dependencia de la temporada alta mediante campañas temáticas durante todo el año. Sin embargo, se prioriza aprovechar la estacionalidad natural y usar los meses bajos para capacitación e innovación.
+
+### 7. Sistema de Monitoreo Ejecutivo
+Implementa una plataforma que permita visualizar en tiempo real los indicadores clave de ventas, inventario y desempeño operativo, facilitando decisiones ágiles y una gestión más eficiente en todos los niveles.
+
 ## 📈 Recomendaciones Ejecutivas
 
-**Programa Top Store Replication:** replicar las mejores prácticas de las tiendas top (#20, #4, #14) en las tiendas de menor desempeño. Esto incluye capacitación del personal, optimización de merchandising y estrategias de clientela. El objetivo es incrementar las ventas promedio de las tiendas bottom 20 de $18M a $21M anuales.
+1. **Programa Top Store Replication:** replicar las mejores prácticas de las tiendas top (#20, #4, #14) en las tiendas de menor desempeño. Esto incluye capacitación del personal, optimización de merchandising y estrategias de clientela. El objetivo es incrementar las ventas promedio de las tiendas bottom 20 de $18M a $21M anuales.
 
-**Optimización de Q4:** aumentar el inventario en preparación para la temporada alta, priorizando categorías de alto margen y ejecutando campañas de marketing anticipadas. Esto permitirá maximizar el 35% de las ventas anuales concentradas en los últimos tres meses del año y aumentar las ventas de Q4 de $2.3B a $2.5B.
+2. **Optimización de Q4:** aumentar el inventario en preparación para la temporada alta, priorizando categorías de alto margen y ejecutando campañas de marketing anticipadas. Esto permitirá maximizar el 35% de las ventas anuales concentradas en los últimos tres meses del año y aumentar las ventas de Q4 de $2.3B a $2.5B.
 
-**Estrategia de Festivos:** implementar un plan integral de pre, durante y post festivo, incluyendo campañas segmentadas, promociones flash, horarios extendidos y captación de clientes para remarketing. Esta estrategia busca incrementar las ventas en las 7 semanas festivas de $505M a $606M.
+3. **Estrategia de Festivos:** implementar un plan integral de pre, durante y post festivo, incluyendo campañas segmentadas, promociones flash, horarios extendidos y captación de clientes para remarketing. Esta estrategia busca incrementar las ventas en las 7 semanas festivas de $505M a $606M.
 
-**Expansión de Formato Small Box:** replicar el modelo eficiente de tiendas tipo C en nuevas aperturas urbanas, optimizando el surtido de productos de alta rotación. El objetivo es lograr ventas superiores a $1,500 por pie cuadrado en nuevas tiendas dentro de los primeros 18 meses.
+4. **Expansión de Formato Small Box:** replicar el modelo eficiente de tiendas tipo C en nuevas aperturas urbanas, optimizando el surtido de productos de alta rotación. El objetivo es lograr ventas superiores a $1,500 por pie cuadrado en nuevas tiendas dentro de los primeros 18 meses.
 
-**Centro de Excelencia Operativa:** establecer un equipo permanente para estandarizar mejores prácticas, reducir ineficiencias y controlar costos operativos. Esto permitirá disminuir el costo operativo por venta de 18% a 16% y asegurar la consistencia en la ejecución de estrategias corporativas.
+5. **Centro de Excelencia Operativa:** establecer un equipo permanente para estandarizar mejores prácticas, reducir ineficiencias y controlar costos operativos. Esto permitirá disminuir el costo operativo por venta de 18% a 16% y asegurar la consistencia en la ejecución de estrategias corporativas.
 
 ---
 
