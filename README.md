@@ -6,18 +6,17 @@ Análisis exhaustivo de datos de ventas de Walmart para identificar patrones de 
 
 ##  Descripción
 
-Walmart, como líder global en retail, requiere anticipar la demanda para optimizar inventario, asignación de personal y estrategias promocionales. Este proyecto analiza 421,570 registros de ventas semanales de 45 tiendas durante el período febrero 2010 - octubre 2012, evaluando el comportamiento de ventas por tienda, tipo de establecimiento y el impacto de factores externos como días festivos, temperatura y variables económicas.
+Walmart es una corporación multinacional de retail que opera 45 tiendas con aproximadamente 99 departamentos cada una. La empresa enfrenta el desafío de optimizar sus operaciones en un mercado altamente competitivo, donde la eficiencia operativa y la planificación estratégica son críticas para mantener la rentabilidad. Para ello, este proyecto analiza 421,570 registros de ventas semanales entre febrero de 2010 y octubre de 2012, con el objetivo de anticipar la demanda y optimizar el inventario, la asignación de personal y las estrategias promocionales. Además, se evalúa el comportamiento de ventas por tienda y tipo de establecimiento, así como el impacto de factores externos como días festivos, temperatura y variables económicas.
 
 ---
 
-##  Objetivos del Proyecto
+##  Objetivos del Analisis
 
-- Explorar y transformar el dataset de ventas utilizando SQL Server
-- Analizar patrones de ventas por tienda, departamento y temporada
-- Evaluar el impacto de días festivos en el comportamiento de compra
-- Identificar correlaciones entre factores externos (clima, economía) y ventas
-- Construir un dashboard interactivo en Power BI para comunicar insights de forma visual
-- Generar recomendaciones accionables basadas en datos
+1.Identificar patrones temporales de venta
+2.Evaluar desempeño por tienda
+3.Cuantificar impacto de factores externos
+4.Generar recomendaciones accionables
+5.Establecer KPIs de monitoreo continuo
 
 ---
 
