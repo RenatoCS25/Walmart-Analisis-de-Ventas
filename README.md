@@ -168,7 +168,7 @@ Ser grande no significa ser fácil de gestionar.
 
 7. **Sistema de Monitoreo Ejecutivo:** Implementa una plataforma que permita visualizar en tiempo real los indicadores clave de ventas, inventario y desempeño operativo, facilitando decisiones ágiles y una gestión más eficiente en todos los niveles.
 
-## 📈 Recomendaciones Ejecutivas
+##  Recomendaciones Ejecutivas
 
 1. **Programa Top Store Replication:** replicar las mejores prácticas de las tiendas top (#20, #4, #14) en las tiendas de menor desempeño. Esto incluye capacitación del personal, optimización de merchandising y estrategias de clientela. El objetivo es incrementar las ventas promedio de las tiendas bottom 20 de $18M a $21M anuales.
 
