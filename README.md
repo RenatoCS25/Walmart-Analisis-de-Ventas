@@ -114,8 +114,7 @@ Acción: Recomendaciones basadas en hallazgos
 
 ---
 
-##  INSIGHTS 
-
+##  Insights
 ### 1.  Concentración de ingresos = riesgo operativo  
 Solo el **22% de las tiendas genera el 39% de las ventas totales**, lo que revela una alta dependencia de pocas ubicaciones.  
 Si una tienda clave deja de operar una semana, el impacto supera los **$5.8M**.  
