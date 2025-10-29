@@ -1,10 +1,98 @@
 
--- Limpieza, validaci髇 y transformaci髇 del dataset de Walmart
+-- Limpieza, validaci贸n y transformaci贸n del dataset de Walmart
 
 USE WalmartSales;
 GO
+-- Crear tablas para cada CSV
+-- Sales
+CREATE TABLE Sales (
+    Store INT,
+    Dept INT,
+    Date DATE,
+    Weekly_Sales DECIMAL(18,2),
+    IsHoliday BIT
+);
 
--- SECCI覰 1: EXPLORACI覰 INICIAL
+-- Stores
+CREATE TABLE Stores (
+    Store INT,
+    Type VARCHAR(50),
+    Size INT
+);
+
+-- Features
+CREATE TABLE Features (
+    Store INT,
+    Date DATE,
+    Temperature DECIMAL(5,2),
+    Fuel_Price DECIMAL(5,2),
+    CPI DECIMAL(10,2),
+    Unemployment DECIMAL(10,2),
+    Holiday_Flag BIT
+);
+
+-- Importar los CSV
+
+BULK INSERT Sales
+FROM 'C:\walmart_project\data\sales.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    TABLOCK
+);
+
+BULK INSERT Stores
+FROM 'C:\walmart_project\data\stores.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    TABLOCK
+);
+
+BULK INSERT Features
+FROM 'C:\walmart_project\data\features.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    TABLOCK
+);
+
+-- Ajusta las rutas a donde est茅n tus archivos
+-- Sales.csv
+BULK INSERT Sales
+FROM 'C:\ruta\a\sales.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    TABLOCK
+);
+
+-- Stores.csv
+BULK INSERT Stores
+FROM 'C:\ruta\a\stores.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    TABLOCK
+);
+
+-- Features.csv
+BULK INSERT Features
+FROM 'C:\ruta\a\features.csv'
+WITH (
+    FIRSTROW = 2,
+    FIELDTERMINATOR = ',',
+    ROWTERMINATOR = '\n',
+    TABLOCK
+);
+
+
+-- SECCI脫N 1: EXPLORACI脫N INICIAL
 
 -- 1.1 Verificar conteo de registros en cada tabla
 SELECT 'sales' AS tabla, COUNT(*) AS total_registros FROM sales
@@ -23,7 +111,7 @@ SELECT
     DATEDIFF(MONTH, MIN(Date), MAX(Date)) AS meses_totales
 FROM sales;
 
--- 1.3 Contar tiendas y departamentos 鷑icos
+-- 1.3 Contar tiendas y departamentos 煤nicos
 SELECT 
     COUNT(DISTINCT Store) AS total_tiendas,
     COUNT(DISTINCT Dept) AS total_departamentos
@@ -36,7 +124,7 @@ SELECT TOP 5 * FROM stores ORDER BY Store;
 SELECT TOP 5 * FROM features ORDER BY Store, Date;
 
 
--- SECCI覰 2: VALIDACI覰 DE CALIDAD DE DATOS
+-- SECCI脫N 2: VALIDACI脫N DE CALIDAD DE DATOS
 -- 2.1 Identificar valores nulos en sales
 SELECT 
     COUNT(*) AS total_rows,
@@ -56,21 +144,21 @@ SELECT
     SUM(CASE WHEN Unemployment IS NULL THEN 1 ELSE 0 END) AS null_unemployment
 FROM features;
 
--- 2.3 Buscar duplicados en sales (Store + Date + Dept debe ser 鷑ico)
+-- 2.3 Buscar duplicados en sales (Store + Date + Dept debe ser 煤nico)
 SELECT 
     Store, Date, Dept, COUNT(*) AS veces_repetido
 FROM sales
 GROUP BY Store, Date, Dept
 HAVING COUNT(*) > 1;
 
--- 2.4 Buscar duplicados en features (Store + Date debe ser 鷑ico)
+-- 2.4 Buscar duplicados en features (Store + Date debe ser 煤nico)
 SELECT 
     Store, Date, COUNT(*) AS veces_repetido
 FROM features
 GROUP BY Store, Date
 HAVING COUNT(*) > 1;
 
--- 2.5 Verificar valores negativos en ventas (no deber韆n existir)
+-- 2.5 Verificar valores negativos en ventas (no deber铆an existir)
 SELECT 
     COUNT(*) AS ventas_negativas,
     MIN(Weekly_Sales) AS venta_minima,
@@ -78,7 +166,7 @@ SELECT
 FROM sales
 WHERE Weekly_Sales < 0;
 
--- 2.6 Verificar rangos l骻icos de temperatura (debe estar entre -20 y 120 癋)
+-- 2.6 Verificar rangos l贸gicos de temperatura (debe estar entre -20 y 120 掳F)
 SELECT 
     MIN(Temperature) AS temp_minima,
     MAX(Temperature) AS temp_maxima,
@@ -97,7 +185,7 @@ INNER JOIN features f
     ON s.Store = f.Store AND s.Date = f.Date
 WHERE s.IsHoliday != f.IsHoliday;
 
--- SECCI覰 3: TRANSFORMACI覰 Y ENRIQUECIMIENTO
+-- SECCI脫N 3: TRANSFORMACI脫N Y ENRIQUECIMIENTO
 
 -- 3.1 Agregar columnas temporales a sales (Year, Month, Quarter, etc.)
 -- Vista con columnas temporales enriquecidas
@@ -115,10 +203,10 @@ SELECT
     DATEPART(QUARTER, s.Date) AS Quarter,
     DATEPART(WEEK, s.Date) AS Week_Number,
     DATEPART(WEEKDAY, s.Date) AS Day_of_Week,
-    -- Informaci髇 de stores
+    -- Informaci贸n de stores
     st.Type AS Store_Type,
     st.Size AS Store_Size,
-    -- Informaci髇 de features
+    -- Informaci贸n de features
     f.Temperature,
     f.Fuel_Price,
     f.CPI,
@@ -137,8 +225,8 @@ SELECT
     (SELECT COUNT(*) FROM vw_sales_enriched) AS registros_vista,
     CASE 
         WHEN (SELECT COUNT(*) FROM sales) = (SELECT COUNT(*) FROM vw_sales_enriched)
-        THEN 'OK - Sin duplicaci髇'
-        ELSE 'ERROR - Hay duplicaci髇 de datos'
+        THEN 'OK - Sin duplicaci贸n'
+        ELSE 'ERROR - Hay duplicaci贸n de datos'
     END AS status_validacion;
 
 -- 3.4 Verificar suma de ventas (debe ser igual en tabla original y vista)
@@ -152,7 +240,7 @@ SELECT
         ELSE 'ERROR - Totales no coinciden'
     END AS status_validacion;
 
--- SECCI覰 4: CREACI覰 DE TABLAS DE RESUMEN (OPCIONAL)
+-- SECCI脫N 4: CREACI脫N DE TABLAS DE RESUMEN (OPCIONAL)
 -- 4.1 Tabla resumen: Ventas mensuales por tienda
 CREATE OR ALTER VIEW vw_monthly_sales_by_store AS
 SELECT 
@@ -183,7 +271,7 @@ FROM vw_sales_enriched
 GROUP BY Store_Type;
 GO
 
--- 4.3 Tabla resumen: Ventas por d韆 festivo
+-- 4.3 Tabla resumen: Ventas por d铆a festivo
 CREATE OR ALTER VIEW vw_sales_by_holiday AS
 SELECT 
     CASE 
@@ -199,7 +287,7 @@ FROM vw_sales_enriched
 GROUP BY IsHoliday;
 GO
 
--- SECCI覰 5: ESTAD蚐TICAS FINALES
+-- SECCI脫N 5: ESTAD脥STICAS FINALES
 -- 5.1 Resumen general del dataset
 SELECT 
     'Dataset Overview' AS Metrica,
@@ -211,7 +299,7 @@ SELECT
     (SELECT SUM(Weekly_Sales) FROM sales) AS Ventas_Totales,
     (SELECT AVG(Weekly_Sales) FROM sales) AS Promedio_Ventas_Semanales;
 
--- 5.2 Distribuci髇 de registros por a駉
+-- 5.2 Distribuci贸n de registros por a帽o
 SELECT 
     YEAR(Date) AS Year,
     COUNT(*) AS Total_Records,
@@ -231,3 +319,4 @@ SELECT
     CAST(SUM(CASE WHEN Weekly_Sales < 0 THEN 1 ELSE 0 END) AS DECIMAL(10,2)) AS Registros_Negativos,
     CAST((1.0 - (SUM(CASE WHEN Weekly_Sales IS NULL THEN 1 ELSE 0 END) * 1.0 / COUNT(*))) * 100 AS DECIMAL(5,2)) AS Porcentaje_Completitud
 FROM sales;
+
