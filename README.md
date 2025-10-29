@@ -154,26 +154,19 @@ La complejidad operativa en estos establecimientos exige **sistemas de pronósti
 Ser grande no significa ser fácil de gestionar.  
 
 ## Recomendaciones
-### 1. Programa de Mejora de Tiendas
-Busca elevar el desempeño de las tiendas con bajo rendimiento replicando las prácticas exitosas de las mejores. Incluye diagnóstico de operaciones, implementación de mejoras piloto, capacitación del personal y posterior expansión de los resultados más efectivos al resto de las tiendas.
+1. Programa de Mejora de Tiendas: Busca elevar el desempeño de las tiendas con bajo rendimiento replicando las prácticas exitosas de las mejores. Incluye diagnóstico de operaciones, implementación de mejoras piloto, capacitación del personal y posterior expansión de los resultados más efectivos al resto de las tiendas.
 
-### 2. Estrategia de Temporada Alta
-Orienta los esfuerzos para maximizar las ventas en el último trimestre del año mediante una planificación anticipada, refuerzo de inventario y personal, y campañas promocionales intensivas. También contempla la optimización de la experiencia del cliente y acciones de fidelización tras la temporada.
+2. Estrategia de Temporada Alta: Orienta los esfuerzos para maximizar las ventas en el último trimestre del año mediante una planificación anticipada, refuerzo de inventario y personal, y campañas promocionales intensivas. También contempla la optimización de la experiencia del cliente y acciones de fidelización tras la temporada.
 
-### 3. Programa de Ventas Festivas
-Tiene como objetivo incrementar las ventas durante los periodos festivos con estrategias adaptadas a cada tipo de tienda. Combina promociones atractivas, marketing local y experiencias diferenciadas para los clientes, impulsando tanto el tráfico como la rentabilidad.
+3. Programa de Ventas Festivas: Tiene como objetivo incrementar las ventas durante los periodos festivos con estrategias adaptadas a cada tipo de tienda. Combina promociones atractivas, marketing local y experiencias diferenciadas para los clientes, impulsando tanto el tráfico como la rentabilidad.
 
-### 4. Estrategia de Expansión de Formato
-Propone el desarrollo de un nuevo modelo de tienda más compacto y eficiente, enfocado en ubicaciones urbanas de alta densidad. Este formato prioriza productos esenciales y de alta rotación, permitiendo ampliar la cobertura del negocio con menor inversión y tiempos de apertura más cortos.
+4. Estrategia de Expansión de Formato: Propone el desarrollo de un nuevo modelo de tienda más compacto y eficiente, enfocado en ubicaciones urbanas de alta densidad. Este formato prioriza productos esenciales y de alta rotación, permitiendo ampliar la cobertura del negocio con menor inversión y tiempos de apertura más cortos.
 
-### 5. Programa de Excelencia Operativa
-Busca estandarizar procesos, mejorar la eficiencia y asegurar consistencia en la ejecución en todas las tiendas. Incluye auditorías, capacitación continua y adopción de mejores prácticas para fortalecer la cultura de mejora continua.
+5. Programa de Excelencia Operativa: Busca estandarizar procesos, mejorar la eficiencia y asegurar consistencia en la ejecución en todas las tiendas. Incluye auditorías, capacitación continua y adopción de mejores prácticas para fortalecer la cultura de mejora continua.
 
-### 6. Estrategia de Desestacionalización Comercial
-Pretende reducir la dependencia de la temporada alta mediante campañas temáticas durante todo el año. Sin embargo, se prioriza aprovechar la estacionalidad natural y usar los meses bajos para capacitación e innovación.
+6. Estrategia de Desestacionalización Comercial: Pretende reducir la dependencia de la temporada alta mediante campañas temáticas durante todo el año. Sin embargo, se prioriza aprovechar la estacionalidad natural y usar los meses bajos para capacitación e innovación.
 
-### 7. Sistema de Monitoreo Ejecutivo
-Implementa una plataforma que permita visualizar en tiempo real los indicadores clave de ventas, inventario y desempeño operativo, facilitando decisiones ágiles y una gestión más eficiente en todos los niveles.
+7. Sistema de Monitoreo Ejecutivo: Implementa una plataforma que permita visualizar en tiempo real los indicadores clave de ventas, inventario y desempeño operativo, facilitando decisiones ágiles y una gestión más eficiente en todos los niveles.
 
 ## 📈 Recomendaciones Ejecutivas
 
