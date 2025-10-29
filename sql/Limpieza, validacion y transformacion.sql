@@ -33,8 +33,7 @@ CREATE TABLE IF NOT EXISTS Features (
 GO
 
 -- 2. Importacion de CSV
--- NOTA: Para ejecutar este script, los CSV deben estar en una ruta accesible
--- por SQL Server. Por ejemplo, copia los archivos a "C:\walmart_project\data\".
+-- NOTA: Para ejecutar este script, los CSV deben estar en una ruta accesible por SQL Server. Por ejemplo, copia los archivos a "C:\walmart_project\data\".
 -- Ajusta las rutas si tu carpeta es diferente.
 
 -- Importar Sales
@@ -216,3 +215,4 @@ SELECT
     CAST(SUM(CASE WHEN Weekly_Sales < 0 THEN 1 ELSE 0 END) AS DECIMAL(10,2)) AS Registros_Negativos,
     CAST((1.0 - (SUM(CASE WHEN Weekly_Sales IS NULL THEN 1 ELSE 0 END) * 1.0 / COUNT(*))) * 100 AS DECIMAL(5,2)) AS Porcentaje_Completitud
 FROM Sales;
+
