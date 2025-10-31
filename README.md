@@ -259,28 +259,6 @@ Las comparaciones interanuales fueron ajustadas para considerar solo períodos e
 
 ---
 
-##  Skills Demostradas
-
-**Análisis de Datos:**
-- ✅ Limpieza y transformación de datasets complejos
-- ✅ Análisis exploratorio con SQL (JOINs, agregaciones, window functions)
-- ✅ Identificación de patrones temporales y estacionalidad
-- ✅ Análisis de correlaciones y factores externos
-
-**Visualización y Comunicación:**
-- ✅ Diseño de dashboards interactivos con Power BI
-- ✅ Creación de medidas DAX avanzadas
-- ✅ Storytelling con datos para audiencias no técnicas
-- ✅ Documentación técnica clara y estructurada
-
-**Pensamiento de Negocio:**
-- ✅ Traducción de datos en insights accionables
-- ✅ Identificación de oportunidades de optimización
-- ✅ Generación de recomendaciones basadas en evidencia
-- ✅ Consideración de limitaciones metodológicas
-
----
-
 ##  Próximos Pasos
 
 - [ ] Implementar forecasting con modelos de Machine Learning (Prophet, ARIMA)
