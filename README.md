@@ -259,36 +259,6 @@ Las comparaciones interanuales fueron ajustadas para considerar solo períodos e
 
 ---
 
-##  Estructura del Proyecto
-```
-Walmart-Sales-Analysis/
-├── data/
-│   ├── sales.csv              # Ventas semanales
-│   ├── stores.csv             # Información de tiendas
-│   ├── features.csv           # Factores externos
-│   └── data_dictionary.md     # Descripción de campos
-│
-├── sql/
-│   ├── 01_exploratory_analysis.sql    # Análisis exploratorio
-│   ├── 02_business_questions.sql      # Queries de negocio
-│   └── README.md                      # Documentación SQL
-│
-├── powerbi/
-│   └── walmart_dashboard.pbix         # Dashboard interactivo
-│
-├── images/
-│   ├── 01_overview.png
-│   ├── 02_analisis_temporal.png
-│   ├── 03_dias_festivos.png
-│   ├── 04_factores_externos.png
-│   ├── 05_analisis_tiendas.png
-│   └── dashboard_preview.png
-│
-└── README.md
-```
-
----
-
 ##  Skills Demostradas
 
 **Análisis de Datos:**
