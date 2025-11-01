@@ -2,7 +2,7 @@
 
 Análisis exhaustivo de datos de ventas de Walmart para identificar patrones de comportamiento, evaluar el impacto de factores externos y optimizar la toma de decisiones operativas. Este proyecto simula un caso real de inteligencia comercial utilizando SQL Server y Power BI.
 
-<img width="638" height="356" alt="image" src="https://github.com/user-attachments/assets/061538dc-dd95-4656-a4ae-07cd775fddac" />
+<img width="497" height="278" alt="image" src="https://github.com/user-attachments/assets/130e70ff-ebca-4c93-bde1-ddc0018ef902" />
 
 
 ---
